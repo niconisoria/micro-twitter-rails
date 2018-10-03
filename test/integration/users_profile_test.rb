@@ -18,6 +18,11 @@ class UsersProfileTest < ActionDispatch::IntegrationTest
     @user.microposts.paginate(page: 1).each do |micropost|
       assert_match micropost.content, response.body
     end
+    log_in_as(@user)
+    get root_path(@user) 
+    assert_template 'static_pages/home'
+    assert_select 'div.stats'
+    assert_select 'strong.stat', count: 2
   end
 
 end
