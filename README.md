@@ -5,6 +5,14 @@ This is the sample application for
 Learn Web Development with Rails*](http://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
 
+This is a social network where you can create an user, authenticate, create microposts, follow users, get followed, edit your profile and upload images.
+
+The app send activation and forget password emails, was deployed on Heroku.
+
+## Production App
+
+You can see the app in production in the following link: https://niconisampleapp.herokuapp.com
+
 ## License
 
 All source code in the [Ruby on Rails Tutorial](http://railstutorial.org/)
@@ -36,6 +44,3 @@ If the test suite passes, you'll be ready to run the app in a local server:
 ```
 $ rails server
 ```
-
-For more information, see the
-[*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
