@@ -35,3 +35,7 @@
 
 # Ignore uploaded test images.
 /public/uploads
+
+#Idea
+/.idea
+
